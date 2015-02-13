@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="300dp"
         android:layout_height="250dp"
-        android:src="@drawable/Quiz_filler"
+        android:src="@drawable/quiz_filler"
         android:scaleType="fitXY"
         android:layout_gravity="center"
         android:id="@+id/imageView" />
@@ -22,28 +22,32 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/button_new"/>
+        android:id="@+id/button_new"
+        android:onClick="newGame"/>
 
     <Button
         android:text="@string/level"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/button_level"/>
+        android:id="@+id/button_level"
+        android:onClick="level"/>
 
     <Button
         android:text="@string/scores"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/button_scores"/>
+        android:id="@+id/button_scores"
+        android:onClick="scores"/>
 
     <Button
         android:text="@string/settings"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/button_settings"/>
+        android:id="@+id/button_settings"
+        android:onClick="settings"/>
 
 
 

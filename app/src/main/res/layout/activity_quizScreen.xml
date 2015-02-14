@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#000000"
     tools:context="com.example.jannik.appversuch.QuizScreen">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -24,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        android:id="@+id/">
+        android:id="@+id/"
+        android:clickable="false">
 
         <LinearLayout
             android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"

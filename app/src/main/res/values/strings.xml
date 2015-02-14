@@ -2,8 +2,7 @@
 <resources>
 
     Main Activity
-    <string name="app_name">AppVersuch</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Quiz Try</string>
     <string name="action_settings">Settings</string>
     <string name="new_game">New Game</string>
     <string name="level">Level / Difficulty</string>
@@ -11,17 +10,21 @@
     <string name="settings">Settings</string>
 
     Quiz Screen
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
+    <string name="title_activity_fullscreen">Quiz Main Page</string>
+    <string name="button_answer1">Answer1</string>
+    <string name="button_answer2">Answer2</string>
+    <string name="button_answer3">Answer3</string>
+    <string name="button_answer4">Answer4</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_main_activity2">MainActivity2Activity</string>
-    <string name="title_activity_settings">Settings</string>
-    <string name="title_activity_scores">Scores</string>
+
+
 
     Scores
+    <string name="title_activity_scores">Scores</string>
     <string name="scores_play">Play</string>
 
     Settings
+    <string name="title_activity_settings">Settings</string>
     <string name="settings_play">Play</string>
 
 

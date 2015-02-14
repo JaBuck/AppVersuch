@@ -47,7 +47,11 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="0dp"
                 android:focusable="true"
-                android:text="@string/button_answer1" />
+                android:text="@string/button_answer1"
+                android:background="@drawable/Button_195_150"
+                />
+
+
 
             <Button
                 android:id="@+id/answer2"
@@ -58,6 +62,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="40dp"
                 android:focusable="true"
+                android:background="@drawable/Button_195_150"
                 android:text="@string/button_answer2"/>
 
             <Button
@@ -69,6 +74,7 @@
                 android:layout_below="@+id/answer2"
                 android:focusable="true"
                 android:clickable="true"
+                android:background="@drawable/Button_195_150"
                 android:text="@string/button_answer3"/>
 
             <Button
@@ -80,6 +86,7 @@
                 android:layout_below="@+id/answer1"
                 android:focusable="true"
                 android:clickable="true"
+                android:background="@drawable/Button_195_150"
                 android:text="@string/button_answer4"/>
 
 

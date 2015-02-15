@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000001"
+    tools:context="com.example.jannik.appversuch.QuizScreen">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+-        is needed to present your content, e.g. VideoView, SurfaceView,
+-        TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+-        android:fitsSystemWindows. -->
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/answer1"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/button_195_150"
+                    android:focusable="true"
+                    android:text="@string/button_answer1" />
+
+
+                <Button
+                    android:id="@+id/answer2"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_alignBaseline="@+id/answer1"
+                    android:layout_alignBottom="@+id/answer1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_195_150"
+                    android:focusable="true"
+                    android:text="@string/button_answer2" />
+
+                <Button
+                    android:id="@+id/answer3"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_alignLeft="@+id/answer2"
+                    android:layout_below="@+id/answer2"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_195_150"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/button_answer3" />
+
+                <Button
+                    android:id="@+id/answer4"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_alignRight="@+id/answer1"
+                    android:layout_below="@+id/answer1"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/button_195_150"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/button_answer4" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

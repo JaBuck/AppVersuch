@@ -9,8 +9,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="#ffcc724a"
-    android:id="@+id/"
+    android:id="@+id/main1"
     android:baselineAligned="false">
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
 
     <ImageView
         android:layout_width="300dp"

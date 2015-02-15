@@ -22,7 +22,6 @@
             android:label="@string/title_activity_fullscreen"
             android:theme="@style/FullscreenTheme" >
         </activity>
-
         <activity
             android:name=".Settings"
             android:label="@string/title_activity_settings" >
@@ -30,6 +29,10 @@
         <activity
             android:name=".Scores"
             android:label="@string/title_activity_scores" >
+        </activity>
+        <activity
+            android:name=".TemporaryScreen"
+            android:label="@string/title_activity_temporary_screen" >
         </activity>
     </application>
 

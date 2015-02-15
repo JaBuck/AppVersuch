@@ -26,6 +26,12 @@
     Settings
     <string name="title_activity_settings">Settings</string>
     <string name="settings_play">Play</string>
+    <string name="title_activity_temporary_screen">TemporaryScreen</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    Test
+    <string name="edit_message">Enter a message</string>
 
 
 </resources>

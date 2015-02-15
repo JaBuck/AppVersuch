@@ -21,8 +21,9 @@ public class TemporaryScreen extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_temporary_screen);
 
-       //Get message from intent
+      /* //Get message from intent
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
@@ -33,7 +34,7 @@ public class TemporaryScreen extends ActionBarActivity {
 
         //Set text view as in activity layout
 
-        setContentView(textView);
+        setContentView(textView);*/
     }
 
 

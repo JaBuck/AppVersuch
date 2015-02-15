@@ -51,6 +51,7 @@
                     android:layout_marginTop="0dp"
                     android:background="@drawable/button_195_150"
                     android:focusable="true"
+                    android:onClick="answer1"
                     android:text="@string/button_answer1" />
 
 

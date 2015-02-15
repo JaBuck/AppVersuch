@@ -50,7 +50,7 @@
                 android:layout_marginTop="0dp"
                 android:focusable="true"
                 android:text="@string/button_answer1"
-                android:background="@drawable/Button_195_150"
+                android:background="@drawable/button_195_150"
                 />
 
 

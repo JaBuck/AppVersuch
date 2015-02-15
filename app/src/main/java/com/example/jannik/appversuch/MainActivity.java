@@ -14,7 +14,7 @@ public class MainActivity extends ActionBarActivity {
     public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
 
     public void newGame (View view){
-        Intent intent = new Intent(this, QuizScreen.class);
+        Intent intent = new Intent(this, TemporaryScreen.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
